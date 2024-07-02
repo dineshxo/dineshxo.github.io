@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import GridLayout from "./gridLayout";
+import { GridLayout } from "./gridLayout";
 
 const Grid = () => {
   return (
@@ -21,7 +21,7 @@ const Grid = () => {
             />
           </div>
         </div>
-        <div className="bg-green-500 h-full mt-4 md:mt-6">
+        <div className="bg-green-500 flex-grow">
           <GridLayout />
         </div>
       </div>

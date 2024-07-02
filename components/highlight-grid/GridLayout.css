@@ -1,0 +1,121 @@
+:root {
+    --grid-template-areas-lg:
+        "a a b b b c"
+        "a a d d d d"
+        "a a d d d d"
+        "a a e e f f"
+        "g g e e f f";
+
+    --grid-template-areas-md:
+        "a a b b b"
+        "a a d d d"
+        "a a d d d"
+        "e e e f f"
+        "e e e f f"
+        "c c g g g";
+
+    --grid-template-areas-sm:
+        "a a a"
+        "a a a"
+        "b b b"
+        "c g g"
+        "d d d"
+        "d d d"
+        "e e e"
+        "e e e"
+        "f f f"
+        "f f f";
+}
+
+.layout-lg {
+    grid-template-areas: var(--grid-template-areas-lg);
+}
+
+.layout-md {
+    grid-template-areas: var(--grid-template-areas-md);
+}
+
+.layout-sm {
+    grid-template-areas: var(--grid-template-areas-sm);
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    height: 100%;
+    /* Ensure the grid takes up full height */
+}
+
+/* Define fixed sizes for grid items */
+.area-a {
+    grid-area: a;
+    background-color: #f6ad55;
+    min-width: 200px;
+    /* Fixed width */
+    min-height: 200px;
+    /* Fixed height */
+}
+
+.area-b {
+    grid-area: b;
+    background-color: #ed8936;
+    min-width: 300px;
+    /* Fixed width */
+    min-height: 100px;
+    /* Fixed height */
+}
+
+.area-c {
+    grid-area: c;
+    background-color: #ecc94b;
+    min-width: 100px;
+    /* Fixed width */
+    min-height: 100px;
+    /* Fixed height */
+}
+
+.area-d {
+    grid-area: d;
+    background-color: #48bb78;
+    min-width: 400px;
+    /* Fixed width */
+    min-height: 200px;
+    /* Fixed height */
+}
+
+.area-e {
+    grid-area: e;
+    background-color: #4299e1;
+    min-width: 200px;
+    /* Fixed width */
+    min-height: 100px;
+    /* Fixed height */
+}
+
+.area-f {
+    grid-area: f;
+    background-color: #9f7aea;
+    min-width: 200px;
+    /* Fixed width */
+    min-height: 100px;
+    /* Fixed height */
+}
+
+.area-g {
+    grid-area: g;
+    background-color: #ed64a6;
+    min-width: 200px;
+    /* Fixed width */
+    min-height: 100px;
+    /* Fixed height */
+}
+
+/* Styling for each grid item */
+.grid>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
