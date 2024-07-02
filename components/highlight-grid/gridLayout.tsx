@@ -7,8 +7,8 @@ import Image from "next/image";
 
 export const GridLayout = () => {
   return (
-    <div className="min-h-screen bg-zinc-200 px-4 py-12 text-zinc-900">
-      <div className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-1">
+    <div className="min-h-screen bg-zinc-200  text-zinc-900">
+      <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-12 gap-2">
         <CrossPlatform />
         <RightGridItems />
         <WebDevelopment />
@@ -39,9 +39,34 @@ const CrossPlatform = () => (
       <h1 className="mb-4 mt-6 text-4xl font-bold leading-tight">
         Cross Platform Development
       </h1>
-      <p className="text-zinc-400 text-sm mb-12">
-        I build mobile applications for both Android and iOS.
+      <p className="text-zinc-400 text-sm mt-5 mb-6 px-3 ">
+        I specialize in creating high-performance mobile applications for both
+        Android and iOS using technologies like React Native and Flutter. By
+        leveraging a unified codebase, I ensure faster development and
+        consistent user experiences across platforms. My focus is on delivering
+        intuitive and responsive designs that engage users seamlessly on any
+        device.
       </p>
+    </div>
+    <div className="flex gap-2 ">
+      <div className="w-[100px] h-[100px] pl-10">
+        <Image
+          className="object-cover "
+          src="/ios.svg"
+          alt="iphone"
+          width={100}
+          height={50}
+        />
+      </div>
+      <div className="w-[100px] h-[100px] pr-12">
+        <Image
+          className="object-cover"
+          src="/playstore.svg"
+          alt="iphone"
+          width={100}
+          height={50}
+        />
+      </div>
     </div>
     <div className="flex-grow flex items-end ml-2">
       <Image
@@ -59,8 +84,8 @@ const RightGridItems = () => (
   <>
     <Block className="col-span-12 row-span-2 bg-white md:col-span-4 min-h-24 flex flex-col justify-center">
       <div className="text-center">
-        <h1 className="mb-4 mt-6 text-4xl font-bold leading-tight">UI/UX</h1>
-        <p className=" text-sm ">
+        <h1 className="mb-4 mt-6 text-4xl font-bold ">UI/UX</h1>
+        <p className=" text-sm px-3 text-zinc-400 ">
           Crafting intuitive and engaging user interfaces that enhance user
           experience and drive user satisfaction, ensuring that your application
           is both beautiful and functional.
@@ -68,7 +93,7 @@ const RightGridItems = () => (
       </div>
       <div className="flex-grow flex items-end justify-center">
         <Image
-          className="object-cover"
+          className="object-cover pr-2"
           src="/UI.png"
           alt="iphone"
           width={400}
@@ -81,10 +106,10 @@ const RightGridItems = () => (
         <h1 className="text-4xl md:text-5xl font-bold">5+</h1>
         <div className="flex flex-col items-center gap-4 md:gap-1 ">
           <p className=" text-md md:text-sm font-medium">Projects</p>
-          <div className="bg-zinc-100 rounded-full w-[40px] h-[40px] p-2 flex items-center ">
+          <div className="bg-lime rounded-full w-[40px] h-[40px] p-2 flex items-center ">
             <Image
               className=""
-              src="/arrow.png"
+              src="/arrow.svg"
               alt="arrow"
               width={30}
               height={15}
@@ -97,7 +122,9 @@ const RightGridItems = () => (
     <Block className="col-span-6 bg-white md:col-span-3 min-h-24 md:row-span-1 flex flex-col ">
       <div className="flex-grow flex flex-col items-center justify-center md:mt-5 ">
         <h1 className="mt-6 text-4xl font-bold text-center">Full Stack</h1>
-        <h1 className="md:text-2xl font-bold leading-tight">Development</h1>
+        <h1 className="md:text-xl font-medium leading-tight text-zinc-400">
+          Development
+        </h1>
       </div>
       <div className="flex-grow flex items-end pt-5 ">
         <Image
@@ -140,13 +167,13 @@ const WebDevelopment = () => (
 
 const ModernTechStack = () => (
   <Block className="col-span-12 flex flex-col items-center gap-4 md:col-span-4 justify-center">
-    <p className="text-center text-xl p-5 text-zinc-400">Modern Tech Stack</p>
+    <p className="text-center text-4xl font-bold p-5  ">Modern Tech Stack.</p>
   </Block>
 );
 
 const CleanCode = () => (
-  <Block className="col-span-12 md:col-span-8 justify-center items-center flex">
-    <p className="text-center text-xl  text-zinc-400 ">
+  <Block className="col-span-12 md:col-span-8 justify-center items-center flex ">
+    <p className="text-center   text-4xl font-bold ">
       Clean Code. Clean Architecture.
     </p>
   </Block>

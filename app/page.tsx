@@ -5,10 +5,10 @@ import { GridLayout } from "@/components/highlight-grid/gridLayout";
 export default function Home() {
   return (
     <main>
-      {/* <HeroSection />
-      <Grid /> */}
+      <HeroSection />
+      <Grid />
 
-      <GridLayout />
+      {/* <GridLayout /> */}
     </main>
   );
 }

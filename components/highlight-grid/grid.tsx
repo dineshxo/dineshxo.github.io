@@ -21,7 +21,7 @@ const Grid = () => {
             />
           </div>
         </div>
-        <div className="bg-green-500 flex-grow">
+        <div className=" flex-grow">
           <GridLayout />
         </div>
       </div>
