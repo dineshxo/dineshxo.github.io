@@ -11,19 +11,19 @@ const NavBar = () => {
       >
         <Link
           href=""
-          className="flex-1 text-center transition-all duration-300 hover:text-lime-400  hover:scale-90 text-[14px]"
+          className="flex-1 text-center transition-all duration-300 hover:text-lime  hover:scale-90 text-[14px]"
         >
           Home
         </Link>
         <Link
           href=""
-          className="flex-1 text-center transition-all duration-300 hover:text-lime-400 hover:scale-90 text-sm"
+          className="flex-1 text-center transition-all duration-300 hover:text-lime hover:scale-90 text-sm"
         >
           Projects
         </Link>
         <Link
           href=""
-          className="flex-1 text-center transition-all duration-300 hover:text-lime-400 hover:scale-90 text-sm"
+          className="flex-1 text-center transition-all duration-300 hover:text-lime hover:scale-90 text-sm"
         >
           Contact
         </Link>

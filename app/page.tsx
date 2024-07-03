@@ -1,12 +1,14 @@
-import { BackgroundGradientAnimationHeader } from "@/components/hero-gradient/hero_gradient";
-import NavBar from "@/components/navBar";
-import Image from "next/image";
+import HeroSection from "@/components/hero_section";
+import Grid from "@/components/highlight-grid/grid";
+import { GridLayout } from "@/components/highlight-grid/gridLayout";
 
 export default function Home() {
   return (
     <main>
-      {" "}
-      <BackgroundGradientAnimationHeader />
+      <HeroSection />
+      <Grid />
+
+      {/* <GridLayout /> */}
     </main>
   );
 }
