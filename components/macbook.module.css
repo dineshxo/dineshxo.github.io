@@ -1,10 +1,10 @@
 .gradientText {
-    background: linear-gradient(90deg, #a855f7, #ec4899, #eab308, #5ca9eb, #a855f7, #ec4899, #eab308);
+    background: linear-gradient(90deg, #a855f7, #ec4899, #5ca9eb, #a855f7, #ec4899, #5ca9eb);
     background-size: 400% 400%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: gradientAnimation 30s ease infinite;
+    animation: gradientAnimation 25s ease infinite;
 }
 
 @keyframes gradientAnimation {
