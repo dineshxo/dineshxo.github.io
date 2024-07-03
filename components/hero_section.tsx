@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="md:h-[100vh] sm:mt-20 md:mt-20 lg:mt-15 xl:mt-10 mt-20  flex flex-col items-center justify-center p-4">
+    <div className="md:h-[100vh] sm:mt-20 md:mt-20 lg:mt-15 xl:mt-10 mt-20 flex flex-col items-center justify-center p-4">
       <div className="flex flex-col items-center gap-3">
         <div className="w-[250px] h-[250px] md:w-[350px] md:h-[350px] rounded-full overflow-hidden">
           <Image
@@ -28,13 +28,13 @@ const HeroSection = () => {
           />
         </div>
         <h1 className="text-2xl md:text-5xl font-bold text-center px-2">
-          "Turning Ideas into Functional, World-Class Apps."
+          &quot;Turning Ideas into Functional, World-Class Apps.&quot;
         </h1>
-        <h2 className="text-lg md:text-2xl font-medium  text-center">
+        <h2 className="text-lg md:text-2xl font-medium text-center">
           Full stack Web / Mobile App Developer.
         </h2>
         <div className="flex items-center">
-          <h3 className="text-md  font-normal text-blue-600">Contact Me</h3>
+          <h3 className="text-md font-normal text-blue-600">Contact Me</h3>
           <Image
             className=""
             src="/arrow.png"
