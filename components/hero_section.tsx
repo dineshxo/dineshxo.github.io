@@ -27,11 +27,11 @@ const HeroSection = () => {
             height={25}
           />
         </div>
-        <h1 className="text-2xl md:text-5xl font-bold text-center px-2">
+        <h1 className="text-2xl md:text-4xl font-bold text-center px-2">
           &quot;Turning Ideas into Functional, World-Class Apps.&quot;
         </h1>
         <h2 className="text-lg md:text-2xl font-medium text-center">
-          Full stack Web / Mobile App Developer.
+          Full stack Mobile / Web App Developer.
         </h2>
         <div className="flex items-center">
           <h3 className="text-md font-normal text-blue-600">Contact Me</h3>
