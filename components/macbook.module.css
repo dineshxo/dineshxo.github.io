@@ -1,0 +1,22 @@
+.gradientText {
+    background: linear-gradient(90deg, #a855f7, #ec4899, #eab308, #5ca9eb, #a855f7, #ec4899, #eab308);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 30s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
