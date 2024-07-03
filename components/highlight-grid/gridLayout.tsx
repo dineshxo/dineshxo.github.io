@@ -55,7 +55,7 @@ const CrossPlatform = () => (
         <Image
           className="object-cover "
           src="/ios.svg"
-          alt="iphone"
+          alt="App Store Icon"
           width={100}
           height={50}
         />
@@ -64,7 +64,7 @@ const CrossPlatform = () => (
         <Image
           className="object-cover"
           src="/playstore.svg"
-          alt="iphone"
+          alt="Play Store Icon"
           width={100}
           height={50}
         />
@@ -138,7 +138,7 @@ const RightGridItems = () => (
         <Image
           className="object-cover"
           src="/backend.png"
-          alt="iphone"
+          alt="Backend Technologies"
           width={400}
           height={400}
         />
@@ -148,13 +148,13 @@ const RightGridItems = () => (
 );
 
 const WebDevelopment = () => (
-  <Block className="col-span-12 flex justify-center items-center text-3xl leading-snug md:col-span-7 bg-gradient-to-r from-amber-500 to-pink-500">
+  <Block className="col-span-12 flex justify-center items-center text-3xl leading-snug md:col-span-7 bg-gradient-to-r from-amber-500 to-pink-500 p-2 sm:p-0">
     <div className="flex flex-col md:flex-row items-center md:space-x-4 space-y-4 md:space-y-0 ">
       <div className="text-center md:text-left md:pl-5 ">
         <h1 className="mb-4 mt-6 text-3xl font-bold text-white">
           Web Applications
         </h1>
-        <p className="text-zinc-50 text-sm mb-12">
+        <p className="text-zinc-50 text-sm sm:mb-3">
           Explore my work and discover how I can help bring your web application
           ideas to life.
         </p>
