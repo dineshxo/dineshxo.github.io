@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export const GridLayout = () => {
   return (
-    <div className="min-h-screen  ">
+    <div className="min-h-screen ">
       <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-12 gap-2">
         <CrossPlatform />
         <RightGridItems />

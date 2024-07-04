@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectItems from "./projectItems";
 
 const Projects = () => {
   return (
@@ -9,7 +10,9 @@ const Projects = () => {
             Projects
           </h2>
         </div>
-        <div className=" flex-grow bg-red-300"></div>
+        <div className=" flex-grow ">
+          <ProjectItems />
+        </div>
       </div>
     </div>
   );
