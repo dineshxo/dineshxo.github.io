@@ -15,7 +15,7 @@ const NavBar = () => {
           Home
         </Link>
         <Link
-          href=""
+          href="#projects"
           className="flex-1 text-center transition-all duration-300 hover:text-lime hover:scale-90 text-sm"
         >
           Projects
