@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export const GridLayout = () => {
   return (
-    <div className="min-h-screen  ">
+    <div className="min-h-screen ">
       <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-12 gap-2">
         <CrossPlatform />
         <RightGridItems />
@@ -39,8 +39,8 @@ const Block = ({ className, children }: Props) => {
 const CrossPlatform = () => (
   <Block className="col-span-12 row-span-3 md:col-span-5 flex flex-col justify-between items-center">
     <div className="text-center">
-      <h1 className="mb-4 mt-6 text-3xl font-bold bg-gradient-to-b from-indigo-500 to-indigo-900 bg-clip-text text-transparent ">
-        Cross Platform Development
+      <h1 className="mb-4 mt-6 text-2xl sm:text-3xl font-bold bg-gradient-to-b from-indigo-500 to-indigo-900 bg-clip-text text-transparent ">
+        Mobile Application Development
       </h1>
       <p className="text-zinc-400 text-sm mt-5 mb-6 px-3 ">
         I specialize in creating high-performance mobile applications for both
@@ -86,7 +86,7 @@ const RightGridItems = () => (
   <>
     <Block className="col-span-12 row-span-2 bg-white md:col-span-4 min-h-24 flex flex-col justify-center">
       <div className="text-center">
-        <h1 className="mb-4 mt-6 text-3xl font-bold bg-gradient-to-b from-red-400 to-rose-700 bg-clip-text text-transparent ">
+        <h1 className="mb-4 mt-6 text-2xl sm:text-3xl font-bold bg-gradient-to-b from-red-400 to-rose-700 bg-clip-text text-transparent ">
           UI/UX
         </h1>
         <p className=" text-sm px-3 text-zinc-400 ">
@@ -127,7 +127,7 @@ const RightGridItems = () => (
 
     <Block className="col-span-6 bg-white md:col-span-3 min-h-24 md:row-span-1 flex flex-col ">
       <div className="flex-grow flex flex-col items-center justify-center md:mt-5 ">
-        <h1 className="mt-6 text-3xl font-bold text-center bg-gradient-to-b from-slate-500 to-slate-700 bg-clip-text text-transparent">
+        <h1 className="mt-6 text-2xl sm:text-3xl font-bold text-center bg-gradient-to-b from-slate-500 to-slate-700 bg-clip-text text-transparent">
           Full Stack
         </h1>
         <h1 className="md:text-xl font-medium leading-tight text-zinc-400">
@@ -151,7 +151,7 @@ const WebDevelopment = () => (
   <Block className="col-span-12 flex justify-center items-center text-3xl leading-snug md:col-span-7 bg-gradient-to-r from-amber-500 to-pink-500 p-2 sm:p-0">
     <div className="flex flex-col md:flex-row items-center md:space-x-4 space-y-4 md:space-y-0 ">
       <div className="text-center md:text-left md:pl-5 ">
-        <h1 className="mb-4 mt-6 text-3xl font-bold text-white">
+        <h1 className="mb-4 mt-6 text-2xl sm:text-3xl font-bold text-white">
           Web Applications
         </h1>
         <p className="text-zinc-50 text-sm sm:mb-3">
@@ -175,7 +175,7 @@ const WebDevelopment = () => (
 
 const ModernTechStack = () => (
   <Block className="col-span-12 flex flex-col items-center gap-4 md:col-span-4 justify-center p-4">
-    <p className="text-center text-3xl font-bold p-2 bg-gradient-to-b from-sky-600 to-cyan-800 bg-clip-text text-transparent ">
+    <p className="text-center text-2xl sm:text-3xl font-bold p-2 bg-gradient-to-b from-sky-600 to-cyan-800 bg-clip-text text-transparent ">
       Modern Tech Stack.
     </p>
   </Block>
@@ -183,7 +183,7 @@ const ModernTechStack = () => (
 
 const CleanCode = () => (
   <Block className="col-span-12 md:col-span-8 justify-center items-center flex p-4 ">
-    <p className="text-center   text-3xl font-bold bg-gradient-to-b from-red-500 to-red-800 bg-clip-text text-transparent  ">
+    <p className="text-center   text-2xl sm:text-3xl font-bold bg-gradient-to-b from-red-500 to-red-800 bg-clip-text text-transparent  ">
       Clean Code. Clean Architecture.
     </p>
   </Block>
