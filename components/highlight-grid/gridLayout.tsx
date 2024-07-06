@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export const GridLayout = () => {
   return (
-    <div className="min-h-screen  ">
+    <div className="min-h-screen ">
       <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-12 gap-2">
         <CrossPlatform />
         <RightGridItems />
@@ -40,7 +40,7 @@ const CrossPlatform = () => (
   <Block className="col-span-12 row-span-3 md:col-span-5 flex flex-col justify-between items-center">
     <div className="text-center">
       <h1 className="mb-4 mt-6 text-2xl sm:text-3xl font-bold bg-gradient-to-b from-indigo-500 to-indigo-900 bg-clip-text text-transparent ">
-        Cross Platform Development
+        Mobile Application Development
       </h1>
       <p className="text-zinc-400 text-sm mt-5 mb-6 px-3 ">
         I specialize in creating high-performance mobile applications for both
