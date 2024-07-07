@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         lime: '#ebff00',
-        ablue:'#26476d'
+        ablue:'#26476d',
+        mainYellow: '#FED000',
       },
      
     },

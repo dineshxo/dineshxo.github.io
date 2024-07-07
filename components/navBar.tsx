@@ -21,7 +21,7 @@ const NavBar = () => {
           Projects
         </Link>
         <Link
-          href=""
+          href="#contact"
           className="flex-1 text-center transition-all duration-300 hover:text-lime hover:scale-90 text-sm"
         >
           Contact

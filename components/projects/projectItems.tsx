@@ -57,7 +57,7 @@ const ProjectBlock = ({
           <p className="text-zinc-400 text-sm mb-2 text-justify">
             {description}
           </p>
-          <div className="flex gap-1 justify-between mt-3">
+          <div className="flex gap-1 justify-between mt-3 items-center">
             <div>
               {techIconPath.map((icon, idx) => (
                 <TechIcon key={idx} svgPath={icon} />
