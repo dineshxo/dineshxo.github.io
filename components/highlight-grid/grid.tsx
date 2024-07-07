@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { GridLayout } from "./gridLayout";
+import Link from "next/link";
 
 const Grid = () => {
   return (
@@ -11,7 +12,11 @@ const Grid = () => {
             Experience Top-Notch Services.
           </h2>
           <div className=" items-center sm:mt-2 md:mt-0 hidden sm:flex">
-            <h3 className="text-md  font-normal text-blue-600">Explore more</h3>
+            <Link href="#projects">
+              <h3 className="text-md  font-normal text-blue-600">
+                Explore more
+              </h3>
+            </Link>
             <Image
               className=""
               src="/arrow.png"

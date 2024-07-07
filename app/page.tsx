@@ -1,3 +1,4 @@
+import Contact from "@/components/contact";
 import HeroSection from "@/components/hero_section";
 import Grid from "@/components/highlight-grid/grid";
 import Macbook from "@/components/macbook";
@@ -11,6 +12,7 @@ export default function Home() {
       <Macbook />
 
       <Projects />
+      <Contact />
     </main>
   );
 }
