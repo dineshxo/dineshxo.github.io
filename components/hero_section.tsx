@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -40,7 +41,9 @@ const HeroSection = () => {
             Full stack Mobile / Web App Developer.
           </h2>
           <div className="flex items-center">
-            <h3 className="text-md font-normal text-blue-600">Contact Me</h3>
+            <Link href="#contact">
+              <h3 className="text-md font-normal text-blue-600">Contact Me</h3>
+            </Link>
             <Image
               className=""
               src="/arrow.png"

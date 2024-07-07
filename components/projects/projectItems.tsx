@@ -107,15 +107,17 @@ const ExploreMore = (
       <p className="font-semibold pb-8 text-lg md:text-xl text-zinc-500">
         Explore More Works
       </p>
-      <div className="flex items-center justify-center rounded-full bg-lime animate-bounce w-12 h-12 md:w-[100px] md:h-[100px]">
-        <Image
-          className="w-[40px]  md:w-[100px]"
-          src="/arrow.svg"
-          alt="arrow"
-          width={100}
-          height={15}
-        />
-      </div>
+      <Link href="https://github.com/dineshxo" target="_black">
+        <div className="flex items-center justify-center rounded-full bg-lime animate-bounce w-12 h-12 md:w-[100px] md:h-[100px]">
+          <Image
+            className="w-[40px]  md:w-[100px]"
+            src="/arrow.svg"
+            alt="arrow"
+            width={100}
+            height={15}
+          />
+        </div>
+      </Link>
     </div>
   </div>
 );
