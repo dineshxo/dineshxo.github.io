@@ -35,7 +35,7 @@ const Contact = () => {
             contact form below or connect with me on social media.
           </p>
           <p
-            className={`${styles["gradientText"]} text-xl sm:text-5xl font-bold p-5 text-center`}
+            className={`${styles["gradientText"]} text-2xl sm:text-5xl font-bold p-5 text-center`}
           >
             Let&apos;s collaborate and innovate together!
           </p>
@@ -43,7 +43,10 @@ const Contact = () => {
           <div className="mt-5">
             <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-3 gap-2">
               <div className="col-span-3 md:col-span-2 flex items-center justify-center shadow-lg rounded-xl bg-zinc-50">
-                <Link href="mailto:dev.dineshmadusanka@gmail.com">
+                <Link
+                  href="mailto:dev.dineshmadusanka@gmail.com"
+                  target="_black"
+                >
                   <div className="gap-2 items-center p-2 flex">
                     <Image
                       src="/gmail.svg"
@@ -62,6 +65,7 @@ const Contact = () => {
                   <Link
                     href="https://www.linkedin.com/in/dinesh-manchanayaka/"
                     className="transform transition-transform duration-300 ease-in-out hover:scale-105"
+                    target="_black"
                   >
                     <div className="w-[35px] sm:w-[50px]">
                       <Image
@@ -75,6 +79,7 @@ const Contact = () => {
                   <Link
                     href="https://github.com/dineshxo"
                     className="transform transition-transform duration-300 ease-in-out hover:scale-105"
+                    target="_black"
                   >
                     <div className="w-[35px] sm:w-[50px]">
                       <Image
@@ -88,6 +93,7 @@ const Contact = () => {
                   <Link
                     href="https://www.behance.net/dineshmk"
                     className="transform transition-transform duration-300 ease-in-out hover:scale-105"
+                    target="_black"
                   >
                     <div className="w-[40px] sm:w-[60px]">
                       <Image
