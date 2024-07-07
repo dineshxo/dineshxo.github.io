@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const ProjectItems = () => {
   return (
-    <div className="min-h-screen">
-      <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-2 gap-2">
+    <div className="min-h-screen ">
+      <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-2 gap-2 transition-[gap] duration-600 ease-in-out hover:gap-4">
         {projects.map((project, index) => (
           <ProjectBlock
             key={index}
@@ -63,7 +63,11 @@ const ProjectBlock = ({
                 <TechIcon key={idx} svgPath={icon} />
               ))}
             </div>
-            <Link href={gitRepo} target="_blank">
+            <Link
+              href={gitRepo}
+              target="_blank"
+              className="hover:scale-110 animate-pulse"
+            >
               <Image
                 src="/github.svg"
                 width={30}
@@ -90,7 +94,7 @@ const TechIcon = ({ svgPath }: TechProps) => {
         src={svgPath}
         width={30}
         height={30}
-        alt="i1"
+        alt="tech"
         className="rounded-xl"
       />
     </div>
@@ -100,10 +104,12 @@ const TechIcon = ({ svgPath }: TechProps) => {
 const ExploreMore = (
   <div className="col-span-2 sm:col-span-1 bg-white p-1 rounded-xl items-center justify-center">
     <div className="h-full flex flex-col items-center justify-center">
-      <p className="font-semibold pb-8 text-xl">Explore More Works</p>
-      <div className="flex items-center justify-center rounded-full bg-lime animate-bounce">
+      <p className="font-semibold pb-8 text-lg md:text-xl text-zinc-500">
+        Explore More Works
+      </p>
+      <div className="flex items-center justify-center rounded-full bg-lime animate-bounce w-12 h-12 md:w-[100px] md:h-[100px]">
         <Image
-          className=""
+          className="w-[40px]  md:w-[100px]"
           src="/arrow.svg"
           alt="arrow"
           width={100}

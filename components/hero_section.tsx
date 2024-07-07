@@ -15,18 +15,24 @@ const HeroSection = () => {
               height={350}
             />
           </div>
-          <div className="flex items-center">
-            <h3 className="text-lg md:text-xl font-medium">
-              Dinesh Manchanayaka
+          <div className="flex items-center flex-col">
+            <div className="flex items-center">
+              <h3 className="text-lg md:text-xl font-medium">
+                Dinesh Manchanayaka
+              </h3>
+              <Image
+                className="object-cover ml-1"
+                src="/verified.svg"
+                alt="dineshxo"
+                width={25}
+                height={25}
+              />
+            </div>
+            <h3 className="text-sm md:text-lg font-medium text-zinc-500">
+              @dineshxo
             </h3>
-            <Image
-              className="object-cover ml-1"
-              src="/verified.svg"
-              alt="dineshxo"
-              width={25}
-              height={25}
-            />
           </div>
+
           <h1 className="text-2xl md:text-4xl font-bold text-center px-2">
             &quot;Turning Ideas into Functional, World-Class Apps.&quot;
           </h1>
