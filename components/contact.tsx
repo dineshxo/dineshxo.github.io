@@ -44,7 +44,7 @@ const Contact = () => {
             <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-3 gap-2">
               <div className="col-span-3 md:col-span-2 flex items-center justify-center shadow-lg rounded-xl bg-zinc-50">
                 <Link
-                  href="mailto:dev.dineshmadusanka@gmail.com"
+                  href="mailto:dev.dineshmanchanayaka@gmail.com"
                   target="_black"
                 >
                   <div className="gap-2 items-center p-2 flex">
