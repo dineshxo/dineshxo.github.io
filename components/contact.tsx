@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="flex justify-center p-2 sm:p-10">
-        <div className="max-w-5xl w-full flex p-4 bg-white rounded-xl flex-col">
+        <div className="max-w-5xl w-full flex p-4 rounded-xl flex-col">
           <div className="flex flex-col sm:flex-row items-center sm:items-end gap-4 p-2">
             <Image
               src="/dineshxo.jpg"
