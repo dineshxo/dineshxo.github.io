@@ -19,7 +19,7 @@ const Contact = () => {
             />
             <div className="text-center flex">
               <h1 className="text-xl md:text-3xl font-semibold text-zinc-400">
-                Let's Make Great Things Happen.
+                Let&apos;s Make Great Things Happen.
               </h1>
             </div>
           </div>
