@@ -42,12 +42,12 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-2xl md:text-4xl font-bold text-center px-2">
-            &quot;Turning Ideas into Functional, World-Class Apps.&quot;
+            &quot;Turning Ideas into Functional, World-Class Apps.&quot; 🚀
           </h1>
-          <h2 className="text-lg md:text-2xl font-medium text-center">
+          <h2 className="text-lg md:text-2xl font-medium text-center text-zinc-500">
             Full stack Mobile / Web App Developer.
           </h2>
-          <div className="flex items-center">
+          <div className=" flex items-center gap-0 hover:gap-3 transition-all duration-700 ease-in-out">
             <Link href="#contact">
               <h3 className="text-md font-normal text-blue-600">Contact Me</h3>
             </Link>

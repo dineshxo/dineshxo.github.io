@@ -41,7 +41,7 @@ const ProjectBlock = ({
   gitRepo,
 }: Props) => {
   return (
-    <div className="col-span-2 sm:col-span-1 bg-white p-1 rounded-xl shadow-xl border hover:scale-105 transition-transform duration-300">
+    <div className="col-span-2 sm:col-span-1 bg-white p-1 rounded-xl shadow-sm border hover:scale-105 transition-transform duration-300">
       <div className="flex">
         <div className="w-full h-full p-3">
           <Image

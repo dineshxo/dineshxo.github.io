@@ -27,7 +27,7 @@ const Block = ({ className, children }: Props) => {
   return (
     <div
       className={twMerge(
-        "col-span-4 rounded-xl border  bg-white shadow-md  ",
+        "col-span-4 rounded-xl border  bg-white shadow-sm  ",
         className
       )}
     >
