@@ -41,7 +41,7 @@ const ProjectBlock = ({
   gitRepo,
 }: Props) => {
   return (
-    <div className="col-span-2 sm:col-span-1 bg-white p-1 rounded-xl shadow-xl border hover:scale-105 transition-transform duration-300">
+    <div className="col-span-2 sm:col-span-1 bg-white p-1 rounded-xl shadow-sm border hover:scale-105 transition-transform duration-300">
       <div className="flex">
         <div className="w-full h-full p-3">
           <Image
@@ -52,7 +52,7 @@ const ProjectBlock = ({
             className="rounded-xl"
           />
           <div className="flex justify-between items-end py-3">
-            <h1 className="text-xl font-medium">{title}</h1>
+            <h1 className="text-lg font-medium">{title}</h1>
           </div>
           <p className="text-zinc-400 text-sm mb-2 text-justify">
             {description}
@@ -92,8 +92,8 @@ const TechIcon = ({ svgPath }: TechProps) => {
     <div className="border border-orange-200 -mr-3 inline-block p-2 rounded-full bg-white hover:scale-105 hover:animate-pulse transition-transform duration-300">
       <Image
         src={svgPath}
-        width={30}
-        height={30}
+        width={20}
+        height={20}
         alt="tech"
         className="rounded-xl"
       />

@@ -16,6 +16,13 @@ export type Project = {
       gitRepo:"https://github.com/dineshxo/food_order_app_flutter_firebase"
     },
     {
+      img: "/homecare.png",
+      title: "Home Care ",
+      description: "Mobile application to manage and keep track of warranty information and service center contact numbers.",
+      techIconPath: ["/tech_svg/flutter.svg","/tech_svg/firebase.svg"],
+      gitRepo:"https://github.com/dineshxo/bmi_cal_flutter"
+    },
+    {
       img: "/todo.png",
       title: "ToDoEase 2.0",
       description: "ToDoEase is a Flutter-based mobile application designed to help users manage their daily tasks efficiently.",
@@ -41,12 +48,8 @@ export type Project = {
       techIconPath: ["/tech_svg/nextjs.svg", "/tech_svg/typescript.svg"],
       gitRepo:"https://github.com/dineshxo/camping-site-nextjs-test"
     },
-    {
-      img: "/bmi.png",
-      title: "BMI calculator",
-      description: "A simple BMI (Body Mass Index) calculator with Flutter.",
-      techIconPath: ["/tech_svg/flutter.svg"],
-      gitRepo:"https://github.com/dineshxo/bmi_cal_flutter"
-    },
+   
+
+   
   ];
   

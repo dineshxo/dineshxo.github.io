@@ -11,7 +11,7 @@ const Grid = () => {
           <h2 className="text-2xl md:text-4xl font-bold text-zinc-200 mb-2 sm:mb-0">
             Experience Top-Notch Services.
           </h2>
-          <div className=" items-center sm:mt-2 md:mt-0 hidden sm:flex">
+          <div className=" items-center sm:mt-2 md:mt-0 hidden sm:flex gap-0 hover:gap-3 transition-all duration-700 ease-in-out">
             <Link href="#projects">
               <h3 className="text-md  font-normal text-blue-600">
                 Explore more
