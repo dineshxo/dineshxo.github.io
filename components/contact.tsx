@@ -36,8 +36,8 @@ const Contact = () => {
           </p>
 
           <div className="mt-5 ">
-            <div className="mx-auto grid max-w-5xl  grid-flow-dense grid-cols-3 gap-2 ">
-              <div className="col-span-3 md:col-span-2 flex items-center justify-center shadow-lg rounded-xl bg-white ">
+            <div className="mx-auto grid max-w-5xl  grid-flow-dense grid-cols-6 gap-2 ">
+              <div className="col-span-2 md:col-span-2 flex items-center justify-center shadow-lg rounded-xl bg-white ">
                 <Link
                   href="mailto:dev.dineshmanchanayaka@gmail.com"
                   target="_black"
@@ -45,33 +45,39 @@ const Contact = () => {
                   <div className="gap-2 items-center  flex">
                     <Image
                       src="/gmail.svg"
-                      width={40}
-                      height={40}
-                      alt="linkedIn"
+                      width={30}
+                      height={30}
+                      alt="gmail"
                     />
 
                     <p className="text-zinc-600 text-md sm:text-md font-semibold hidden sm:flex">
-                      dev.dineshmanchanayaka@gmail.com
+                      Contact
                     </p>
                   </div>
                 </Link>
               </div>
-              <div className="col-span-3 md:col-span-1 bg-white">
+              <div className="col-span-2 md:col-span-2 flex items-center justify-center shadow-lg rounded-xl bg-white ">
+                <Link
+                  href="https://www.linkedin.com/in/dinesh-manchanayaka/"
+                  target="_black"
+                >
+                  <div className="gap-2 items-center  flex">
+                    <Image
+                      src="/linkedin.svg"
+                      width={30}
+                      height={30}
+                      alt="linkedIn"
+                    />
+
+                    <p className="text-zinc-600 text-md sm:text-md font-semibold hidden sm:flex">
+                      Connect
+                    </p>
+                  </div>
+                </Link>
+              </div>
+
+              <div className="col-span-2 md:col-span-2 bg-white">
                 <div className="flex p-2  items-center justify-center gap-3 shadow-lg rounded-xl">
-                  <Link
-                    href="https://www.linkedin.com/in/dinesh-manchanayaka/"
-                    className="transform transition-transform duration-300 ease-in-out hover:scale-105"
-                    target="_black"
-                  >
-                    <div className="w-[35px] sm:w-[50px] flex items-center justify-center">
-                      <Image
-                        src="/linkedin.svg"
-                        width={30}
-                        height={30}
-                        alt="linkedIn"
-                      />
-                    </div>
-                  </Link>
                   <Link
                     href="https://github.com/dineshxo"
                     className="transform transition-transform duration-300 ease-in-out hover:scale-105"
