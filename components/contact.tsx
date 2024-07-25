@@ -18,8 +18,8 @@ const Contact = () => {
               className="object-cover rounded-full"
             />
             <div className="text-center flex">
-              <h1 className="text-xl md:text-3xl font-bold text-zinc-600">
-                Hello there!
+              <h1 className="text-xl md:text-3xl font-semibold text-zinc-400">
+                Let's Make Great Things Happen.
               </h1>
             </div>
           </div>
@@ -34,44 +34,40 @@ const Contact = () => {
             that drive innovation. Feel free to reach out to me through the
             contact form below or connect with me on social media.
           </p>
-          <p
-            className={`${styles["gradientText"]} text-2xl sm:text-5xl font-bold p-5 text-center`}
-          >
-            Let&apos;s collaborate and innovate together!
-          </p>
 
-          <div className="mt-5">
-            <div className="mx-auto grid max-w-5xl grid-flow-dense grid-cols-3 gap-2">
-              <div className="col-span-3 md:col-span-2 flex items-center justify-center shadow-lg rounded-xl bg-zinc-50">
+          <div className="mt-5 ">
+            <div className="mx-auto grid max-w-5xl  grid-flow-dense grid-cols-3 gap-2 ">
+              <div className="col-span-3 md:col-span-2 flex items-center justify-center shadow-lg rounded-xl bg-white ">
                 <Link
                   href="mailto:dev.dineshmanchanayaka@gmail.com"
                   target="_black"
                 >
-                  <div className="gap-2 items-center p-2 flex">
+                  <div className="gap-2 items-center  flex">
                     <Image
                       src="/gmail.svg"
-                      width={50}
-                      height={50}
+                      width={40}
+                      height={40}
                       alt="linkedIn"
                     />
-                    <p className="text-zinc-600 text-md sm:text-lg font-semibold hidden sm:flex">
+
+                    <p className="text-zinc-600 text-md sm:text-md font-semibold hidden sm:flex">
                       dev.dineshmanchanayaka@gmail.com
                     </p>
                   </div>
                 </Link>
               </div>
-              <div className="col-span-3 md:col-span-1 bg-zinc-50">
-                <div className="flex p-5 items-center justify-center gap-3 shadow-lg rounded-xl">
+              <div className="col-span-3 md:col-span-1 bg-white">
+                <div className="flex p-2  items-center justify-center gap-3 shadow-lg rounded-xl">
                   <Link
                     href="https://www.linkedin.com/in/dinesh-manchanayaka/"
                     className="transform transition-transform duration-300 ease-in-out hover:scale-105"
                     target="_black"
                   >
-                    <div className="w-[35px] sm:w-[50px]">
+                    <div className="w-[35px] sm:w-[50px] flex items-center justify-center">
                       <Image
                         src="/linkedin.svg"
-                        width={50}
-                        height={50}
+                        width={30}
+                        height={30}
                         alt="linkedIn"
                       />
                     </div>
@@ -81,11 +77,11 @@ const Contact = () => {
                     className="transform transition-transform duration-300 ease-in-out hover:scale-105"
                     target="_black"
                   >
-                    <div className="w-[35px] sm:w-[50px]">
+                    <div className="w-[35px] sm:w-[50px] flex items-center justify-center">
                       <Image
                         src="/github.svg"
-                        width={50}
-                        height={50}
+                        width={30}
+                        height={30}
                         alt="github"
                       />
                     </div>
@@ -95,11 +91,11 @@ const Contact = () => {
                     className="transform transition-transform duration-300 ease-in-out hover:scale-105"
                     target="_black"
                   >
-                    <div className="w-[40px] sm:w-[60px]">
+                    <div className="w-[40px] sm:w-[60px] flex items-center justify-center">
                       <Image
                         src="/behance.svg"
-                        width={60}
-                        height={50}
+                        width={35}
+                        height={30}
                         alt="behance"
                       />
                     </div>
@@ -110,7 +106,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-center text-zinc-300">
+      <h1 className="text-center text-zinc-300 text-sm">
         &copy;dineshxo {currentYear}
       </h1>
     </section>
