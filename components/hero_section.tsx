@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="md:h-[100vh] sm:mt-20 md:mt-20 lg:mt-15 xl:mt-10 mt-20 flex flex-col items-center justify-center p-4">
         <div className="flex flex-col items-center gap-3">
           <Image
-            className="object-cover absolute -mt-[100px] md:-mt-[170px]"
+            className="object-cover absolute -mt-[100px] md:-mt-[170px] hidden sm:flex"
             src="/header-gradient.svg"
             alt="dineshxo"
             width={2000}
