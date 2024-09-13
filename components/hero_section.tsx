@@ -4,16 +4,17 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section id="hero-section">
-      <div className="md:h-[100vh] sm:mt-20 md:mt-20 lg:mt-15 xl:mt-10 mt-20 flex flex-col items-center justify-center p-4">
+    <section id="home" className="relative">
+      <Image
+        className="object-cover absolute -mt-[50px] md:-mt-[100px] 2xl:-mt-[150px] hidden sm:flex z-0"
+        src="/header-gradient.svg"
+        alt="dineshxo"
+        width={2000}
+        height={500}
+      />
+
+      <div className="md:h-[100vh] sm:mt-20 md:mt-20 lg:mt-15 xl:mt-10 mt-20 flex flex-col items-center justify-center p-4 relative z-10">
         <div className="flex flex-col items-center gap-3">
-          <Image
-            className="object-cover absolute -mt-[100px] md:-mt-[170px] hidden sm:flex"
-            src="/header-gradient.svg"
-            alt="dineshxo"
-            width={2000}
-            height={500}
-          />
           <div className="w-[250px] h-[250px] md:w-[350px] md:h-[350px] rounded-full overflow-hidden">
             <Image
               className="object-cover"
@@ -47,7 +48,8 @@ const HeroSection = () => {
           <h2 className="text-lg md:text-2xl font-medium text-center text-zinc-500">
             Full stack Mobile / Web App Developer.
           </h2>
-          <div className=" flex items-center gap-0 hover:gap-3 transition-all duration-700 ease-in-out">
+
+          <div className="items-center sm:mt-2 md:mt-0 hidden sm:flex gap-0 hover:gap-3 transition-all duration-700 ease-in-out">
             <Link href="#contact">
               <h3 className="text-md font-normal text-blue-600">Contact Me</h3>
             </Link>

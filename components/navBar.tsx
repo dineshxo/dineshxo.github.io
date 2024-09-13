@@ -9,7 +9,7 @@ const NavBar = () => {
         className={`bg-slate-900 rounded-3xl w-[250px] flex p-3 items-center justify-between text-white transition-transform duration-300 hover:scale-110 shadow-xl ${styles["glass-effect"]}`}
       >
         <Link
-          href="#hero-section"
+          href="#home"
           className="flex-1 text-center transition-all duration-300 hover:text-lime hover:scale-90 text-[14px]"
         >
           Home
